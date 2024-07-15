@@ -4417,6 +4417,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 181.61) (xy 120.65 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bc13e04-31b8-4d90-b799-940e507fde1b")
+	)
+	(wire
+		(pts
 			(xy 73.66 35.56) (xy 76.2 35.56)
 		)
 		(stroke
@@ -5007,6 +5017,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 184.15) (xy 119.38 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a4807b-e251-4f29-8395-b2de776098f1")
+	)
+	(wire
+		(pts
 			(xy 151.13 68.58) (xy 151.13 69.85)
 		)
 		(stroke
@@ -5014,6 +5034,16 @@
 			(type default)
 		)
 		(uuid "97274630-53b2-460c-a98b-0b4ac378c382")
+	)
+	(wire
+		(pts
+			(xy 120.65 181.61) (xy 120.65 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "979e3ae2-8b92-4023-9c6a-5ecce7f8ea2d")
 	)
 	(wire
 		(pts
@@ -5344,6 +5374,16 @@
 			(type default)
 		)
 		(uuid "e6b0fd58-aa43-4b88-b457-b41aa8375333")
+	)
+	(wire
+		(pts
+			(xy 120.65 176.53) (xy 121.92 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7877531-071b-409d-b538-b4587ed9bfc0")
 	)
 	(wire
 		(pts
@@ -7069,7 +7109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 125.73 172.466 0)
 			(effects
 				(font
@@ -8243,7 +8283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P12.70mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 203.2 144.78 0)
 			(effects
 				(font
@@ -8627,28 +8667,28 @@
 			)
 		)
 		(pin "6"
-			(uuid "782724de-ad04-433e-8c28-ec9102d3a202")
+			(uuid "782724de-ad04-433e-8c28-ec9102d3a203")
 		)
 		(pin "4"
-			(uuid "da8cd77f-9f57-4119-a03c-cbd92d7a2bc3")
+			(uuid "da8cd77f-9f57-4119-a03c-cbd92d7a2bc4")
 		)
 		(pin "2"
-			(uuid "448c0b6c-93e7-40b9-93e4-12ede1734a4d")
+			(uuid "448c0b6c-93e7-40b9-93e4-12ede1734a4e")
 		)
 		(pin "8"
-			(uuid "6bf9939e-fe26-44fc-bf38-321af9aa7719")
+			(uuid "6bf9939e-fe26-44fc-bf38-321af9aa771a")
 		)
 		(pin "1"
-			(uuid "c1e86214-b87f-43c4-91ca-a8920476add2")
+			(uuid "c1e86214-b87f-43c4-91ca-a8920476add3")
 		)
 		(pin "7"
-			(uuid "97b1a8b2-a742-4e6c-a5df-89140229072b")
+			(uuid "97b1a8b2-a742-4e6c-a5df-89140229072c")
 		)
 		(pin "3"
-			(uuid "f8f017d2-2dba-4170-8ae2-a6a347c4a766")
+			(uuid "f8f017d2-2dba-4170-8ae2-a6a347c4a767")
 		)
 		(pin "5"
-			(uuid "14693551-fb7d-4295-826f-38aec0b57a29")
+			(uuid "14693551-fb7d-4295-826f-38aec0b57a2a")
 		)
 		(instances
 			(project ""
@@ -8971,7 +9011,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 116.84 135.255 0)
 			(effects
 				(font
@@ -9313,7 +9353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P12.70mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 205.74 77.47 0)
 			(effects
 				(font
@@ -9592,7 +9632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P12.70mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 205.74 99.06 0)
 			(effects
 				(font
@@ -10602,6 +10642,72 @@
 			(project ""
 				(path "/36af1dc6-a136-49f2-a170-bbda6635ecf8/2e9e32ce-e371-4542-a5d5-48143618db0b"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee087e7a-6b65-4af3-970a-984ea7cbb4d6")
+		(property "Reference" "#PWR057"
+			(at 119.38 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e381ad8-dd3f-4dae-8a32-f5991b7f3aae")
+		)
+		(instances
+			(project "fuente_simetrica_24v"
+				(path "/36af1dc6-a136-49f2-a170-bbda6635ecf8/2e9e32ce-e371-4542-a5d5-48143618db0b"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
