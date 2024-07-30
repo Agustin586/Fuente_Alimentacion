@@ -8407,7 +8407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Horizontal"
 			(at 189.23 29.21 0)
 			(effects
 				(font
@@ -12306,7 +12306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Horizontal"
 			(at 226.06 29.21 0)
 			(effects
 				(font
