@@ -547,6 +547,8 @@
       "-VDC": "Potencia",
       "/alimentacion/RELE 1": "Control",
       "/alimentacion/RELE 2": "Control",
+      "/alimentacion/V1_shunt": "Gnd1",
+      "/alimentacion/gnd_1": "Gnd1",
       "/alimentacion/lm317_vi": "Potencia",
       "/alimentacion/lm337_vi": "Potencia",
       "/alimentacion/puente_in": "Potencia",
